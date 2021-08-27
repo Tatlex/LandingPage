@@ -1,0 +1,114 @@
+:root {
+    --color1: #05b1b1;
+    --color2: #523352;
+}
+
+ section {
+    padding: 100px 0;
+}
+
+header {
+    padding: 200px 0;
+}
+
+/* Создание градиента под различные браузеры */
+header, footer {
+    background: #4f24b5;
+    background: -moz-linear-gradient(left, #4f24b5 0%, #4e7b91 100%);
+    background: -webkit-linear-gradient(left, #4f24b5 0%, #4e7b91 100%);
+    background: linear-gradient(to right, #4f24b5 0%, #4e7b91 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f24b5', endColorstr='#4e7b91', GradientType=1);
+}
+
+/* Кнопка play в header */
+.itd_play {
+    background-color: #4f24b5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer; /* Изменение формы курсора при наведении */
+    margin: 10px auto;
+}
+
+/* Класс создания фигуры треугольника в header*/
+.itd_triangle {
+    margin-top: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+}
+
+/*Настройка кнопки "Заказать"*/
+.btn-itd {
+    color: var(--bs-white);
+    background-color: #4e7b91;
+}
+
+/*Настройка 2 кнопки "Заказать"*/
+.btn-course {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    color: var(--bs-white);
+    background-color: #4e7b91;
+}
+
+.color1 {
+    color: #4e7b91;
+}
+
+.color2 {
+    color: #4f24b5;
+}
+
+
+/* Раздел "О курсе","Процесс обучения", "Купить курс"  */
+.about, .learning, .buy {
+    background-color: #eee;
+}
+
+.about i {
+    font-size: 25px;
+    color: #4f24b5;
+}
+
+.itd_circle {
+    display: flex; /* центрирование объектов в кружечках */
+    justify-content: center; /*Выравнивание по горизонтали*/
+    align-items: center; /*Выравнивание по вертикали*/
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #4e7b91;
+    border-radius: 50%;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: #4f24b5;
+    margin: 15px auto 30px;
+}
+
+/*ДЛЯ КОГО КУРС*/
+.forwhom h5 {
+    padding: 50px;
+    border: 3px solid #4e7b91;
+}
+
+/*ПРОЦЕСС ОБУЧЕНИЯ*/
+.learning h5{
+    padding: 25px;
+    border: 3px solid #4f24b5;
+    border-radius: 10px;
+}
+
+/*Конкретная настройка footer*/
+footer{
+padding: 30px 0;
+}
