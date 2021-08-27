@@ -1,4 +1,4 @@
-#Project Landing Page
+# Project Landing Page
 
 The project is based on the Bootstrap framework
 
